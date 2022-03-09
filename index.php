@@ -11,9 +11,6 @@
     <div class="box">
         <div class="appearance">
             <h1>Asztal</h1>
-            <div class="back">
-                <img src="./img/desk_back.jpg">
-            </div>
             <div class="icon">
                 <img src="./img/desk.svg">
             </div>
@@ -22,7 +19,6 @@
             <p>SZÍN</p>
             <div class="color"></div>
             <div class="slider">
-                <p class="val">100</p>
                 <input type="range" id="aH" min="0" max="360">
             </div>
 
@@ -30,18 +26,48 @@
 
             <div class="whithness"></div>
             <div class="slider">
-                <p class="val">50</p>
                 <input type="range" id="aS" min="0" max="100">
             </div>
 
             <p>FÉNYERŐ</p>
             <div class="brightness"></div>
             <div class="slider">
-                <p class="val">10</p>
                 <input type="range" id="aV" min="0" max="100">
             </div>
             
         </div>
     </div>
+    <div class="box">
+        <div class="appearance">
+            <h1>POLC</h1>
+
+            <div class="icon">
+                <img src="./img/shelf.svg">
+            </div>
+        </div>
+        <div class="sliders">
+            <p>SZÍN</p>
+            <div class="color"></div>
+            <div class="slider">
+                <input type="range" id="aH" min="0" max="360">
+            </div>
+
+            <p>FEHÉRSÉG</p>
+
+            <div class="whithness"></div>
+            <div class="slider">
+                <input type="range" id="aS" min="0" max="100">
+            </div>
+
+            <p>FÉNYERŐ</p>
+            <div class="brightness"></div>
+            <div class="slider">
+                <input type="range" id="aV" min="0" max="100">
+            </div>
+            
+        </div>
+    </div>
+
+    <script src="./js/app.js"></script>
 </body>
 </html>
